@@ -47,7 +47,7 @@ class TasksController < ApplicationController
   end
 
   def tasks
-    @tasks ||= current_list.tasks.filtered(params[:type]).order(id: :desc)
+    @tasks ||= current_list.tasks.filtered(params[:type]).order_task(params[:sort_by])
   end
   helper_method :tasks
 
