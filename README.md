@@ -1,4 +1,7 @@
-- Encrypt user id in cookies (cookies.signed)
-  - http://api.rubyonrails.org/classes/ActionDispatch/Cookies.html
-- Mark user if he is on list
-- Add tasks sorting by title and created_at (ASC && DESC)
+[![CircleCI](https://circleci.com/gh/geekhub-rails/lesson4.svg?style=svg)](https://circleci.com/gh/geekhub-rails/lesson4)
+-
+
+- Online/Offline channel 
+- 100% Coverage & geen build
+- Fix Boss for websockets
+- Display user avatars using Gravatar
