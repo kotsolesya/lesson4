@@ -1,0 +1,7 @@
+example_id                                     | status  | run_time        |
+---------------------------------------------- | ------- | --------------- |
+./spec/features/authentications_spec.rb[1:1:1] | passed  | 0.97548 seconds |
+./spec/features/authentications_spec.rb[1:1:2] | passed  | 1.39 seconds    |
+./spec/features/authentications_spec.rb[1:2:1] | passed  | 14.85 seconds   |
+./spec/features/authentications_spec.rb[1:2:2] | passed  | 1.2 seconds     |
+./spec/features/tasks_spec.rb[1:1]             | pending | 0.00003 seconds |
