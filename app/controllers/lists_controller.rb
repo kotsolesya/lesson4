@@ -19,7 +19,7 @@ class ListsController < ApplicationController
   def share
     @user = User.find_by(email: params[:email])
     if @list.all_users.include?(@user)
-      redirect_to list_tasks_path(@list), alert: 'This user is already added to the list'
+      redirect_to list_tasks_path(@list), notice: 'This user is already added to the list'
     else
       send_email
       @user.shared_lists << @list if @user

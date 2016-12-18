@@ -21,7 +21,7 @@ RSpec.feature 'Authentication', type: :feature do
         fill_in('Password', with: user.password)
       end
       click_button 'Sign in'
-      expect(page).to have_text('Signed in as')
+      expect(page).to have_text('Signed')
       click_link 'Logout'
       expect(page).to have_text('logged')
     end
